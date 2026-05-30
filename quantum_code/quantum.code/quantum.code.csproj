@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FBF32099-B197-4AB9-8E5A-B44D9D3750BD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Quantum</RootNamespace>
+    <AssemblyName>quantum.code</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>portable</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Quantum Survivor\Assets\Photon\Quantum\Assemblies\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;QUANTUM_PROFILER_ENABLED</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+    <LangVersion>latest</LangVersion>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <AllowedReferenceRelatedFileExtensions>.pdb</AllowedReferenceRelatedFileExtensions>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>portable</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Quantum Survivor\Assets\Photon\Quantum\Assemblies\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+    <LangVersion>latest</LangVersion>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <AllowedReferenceRelatedFileExtensions>.pdb</AllowedReferenceRelatedFileExtensions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'ReleaseProfiler|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>portable</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Quantum Survivor\Assets\Photon\Quantum\Assemblies\</OutputPath>
+    <DefineConstants>QUANTUM_PROFILER_ENABLED</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+    <LangVersion>latest</LangVersion>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <AllowedReferenceRelatedFileExtensions>.pdb</AllowedReferenceRelatedFileExtensions>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="PhotonDeterministic, Version=2.1.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath Condition="'$(Configuration)' == 'Release'">..\..\assemblies\release\PhotonDeterministic.dll</HintPath>
+      <HintPath Condition="'$(Configuration)' == 'Debug'">..\..\assemblies\debug\PhotonDeterministic.dll</HintPath>
+    </Reference>
+    <Reference Include="quantum.core, Version=2.1.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath Condition="'$(Configuration)' == 'Release'">..\..\assemblies\release\quantum.core.dll</HintPath>
+      <HintPath Condition="'$(Configuration)' == 'ReleaseProfiler'">..\..\assemblies\release-profiler\quantum.core.dll</HintPath>
+      <HintPath Condition="'$(Configuration)' == 'Debug'">..\..\assemblies\debug\quantum.core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CommandSetup.User.cs" />
+    <Compile Include="Core\CodeGen.cs" />
+    <Compile Include="CommandSetup.Legacy.cs" />
+    <Compile Include="Core\Core.cs" />
+    <Compile Include="Frame.User.cs" />
+    <Compile Include="FrameContext.User.cs" />
+    <Compile Include="RuntimeConfig.User.cs" />
+    <Compile Include="RuntimePlayer.User.cs" />
+    <Compile Include="SimulationConfig.User.cs" />
+    <Compile Include="Survivor\State\Assets\Character\CharacterController\CharacterController.cs" />
+    <Compile Include="Survivor\State\Assets\Collectible\CollectibleSpec.cs" />
+    <Compile Include="Survivor\State\Assets\Collectible\XPCollectibleSpec.cs" />
+    <Compile Include="Survivor\State\Assets\PowerUps\AbilityPowerUpSpec.cs" />
+    <Compile Include="Survivor\State\Assets\PowerUps\PowerUpRoster.cs" />
+    <Compile Include="Survivor\State\Assets\PowerUps\PowerUpSpec.cs" />
+    <Compile Include="Survivor\State\Assets\Projectile\BombProjectileSpec.cs" />
+    <Compile Include="Survivor\State\Assets\Projectile\DirectionalProjectileSpec.cs" />
+    <Compile Include="Survivor\State\Assets\Projectile\Effects\DamageEffectSpec.cs" />
+    <Compile Include="Survivor\State\Assets\Projectile\Effects\EffectSpec.cs" />
+    <Compile Include="Survivor\State\Assets\Projectile\Effects\KillEffectSpec.cs" />
+    <Compile Include="Survivor\State\Assets\Projectile\Effects\SpawnProjectileEffectSpec.cs" />
+    <Compile Include="Survivor\State\Assets\Projectile\ForwardProjectileSpec.cs" />
+    <Compile Include="Survivor\State\Assets\Projectile\ProjectileSpec.cs" />
+    <Compile Include="Survivor\State\Assets\Projectile\WhipProjectileSpec.cs" />
+    <Compile Include="Survivor\State\Assets\Wave\MapWaves.cs" />
+    <Compile Include="Survivor\State\Assets\Wave\WaveConfig.cs" />
+    <Compile Include="Survivor\State\Commands\GameCommands.cs" />
+    <Compile Include="Survivor\State\GameplayArea\GameplayArea.cs" />
+    <Compile Include="Survivor\State\Helpers\LevelUpHelper.cs" />
+    <Compile Include="Survivor\State\Input\Input.cs" />
+    <Compile Include="Survivor\State\Monster\Monster.cs" />
+    <Compile Include="Survivor\State\Spawner\CharacterRoster.cs" />
+    <Compile Include="Survivor\State\Spawner\WavesManager.User.cs" />
+    <Compile Include="Survivor\Systems\AbilitySystem.cs" />
+    <Compile Include="Survivor\Systems\CharacterMovementSystem.cs" />
+    <Compile Include="Survivor\Systems\Commands\ChoosePowerUpCommandSystem.cs" />
+    <Compile Include="Survivor\Systems\Commands\MoreTimeCommandSystem.cs" />
+    <Compile Include="Survivor\Systems\MagneticLockSystem.cs" />
+    <Compile Include="Survivor\Systems\MonsterInputSystem.cs" />
+    <Compile Include="Survivor\Systems\MonsterSystem.cs" />
+    <Compile Include="Survivor\Systems\PlayerInputSystem.cs" />
+    <Compile Include="Survivor\Systems\CollectibleSystem.cs" />
+    <Compile Include="Survivor\Systems\ProgressionSystems.cs" />
+    <Compile Include="Survivor\Systems\ProjectileSystems.cs" />
+    <Compile Include="Survivor\Systems\PowerUpSystem.cs" />
+    <Compile Include="Survivor\Systems\SpawnCharacterSystem.cs" />
+    <Compile Include="Survivor\Systems\WavesManagerSystem.cs" />
+    <Compile Include="Survivor\Systems\WaveSystem.cs" />
+    <Compile Include="SystemSetup.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="db.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Survivor\State\DSL\Projectile.qtn" />
+    <None Include="Survivor\State\DSL\Ability.qtn" />
+    <None Include="Survivor\State\DSL\Bots.qtn" />
+    <None Include="Survivor\State\DSL\CC.qtn" />
+    <None Include="Survivor\State\DSL\Character.qtn" />
+    <None Include="Survivor\State\DSL\Collectible.qtn" />
+    <None Include="Survivor\State\DSL\Game.qtn" />
+    <None Include="Survivor\State\DSL\Input.qtn" />
+    <None Include="Survivor\State\DSL\Monster.qtn" />
+    <None Include="Survivor\State\DSL\WavesManager.qtn" />
+    <None Include="Survivor\State\DSL\Wave.qtn" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent Condition="'$(OS)' == 'Windows_NT'">"$(ProjectDir)..\..\tools\codegen_unity\quantum.codegen.unity.host.exe" "$(TargetDir)\quantum.code.dll" "$(ProjectDir)..\..\Quantum Survivor\Assets"</PostBuildEvent>
+    <PreBuildEvent Condition="'$(OS)' == 'Windows_NT'">"$(ProjectDir)..\..\tools\codegen\quantum.codegen.host.exe" "$(ProjectPath)"</PreBuildEvent>
+    <PostBuildEvent Condition="'$(OS)' != 'Windows_NT'">mono "$(ProjectDir)..\..\tools\codegen_unity\quantum.codegen.unity.host.exe" "$(TargetDir)\quantum.code.dll" "$(ProjectDir)..\..\Quantum Survivor\Assets"</PostBuildEvent>
+    <PreBuildEvent Condition="'$(OS)' != 'Windows_NT'">mono "$(ProjectDir)..\..\tools\codegen\quantum.codegen.host.exe" "$(ProjectPath)"</PreBuildEvent>
+  </PropertyGroup>
+</Project>

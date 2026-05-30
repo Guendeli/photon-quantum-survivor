@@ -1,0 +1,9 @@
+component Monster {
+    entity_ref Target;
+    [HideInInspector]
+    bool ShouldDie;
+    asset_ref<EntityPrototype> Drop;
+}
+
+signal SpawnMonster(entity_ref target, asset_ref<EntityPrototype> prototype);
+signal SetMonsterTarget(entity_ref monsterEntity);

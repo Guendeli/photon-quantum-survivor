@@ -1,0 +1,20 @@
+#define AbilityCount 3
+
+component Abilities {
+    array<Ability>[AbilityCount] Slot;
+}
+
+struct Ability{
+	Boolean IsEnabled;
+    FP Damage;
+	FP Cooldown;
+    Int32 Level;
+    Boolean RandomDirection;
+    FP RotationSpeed;
+    [HideInInspector]
+    FP Radians;
+    [HideInInspector]
+    FP Time;
+    asset_ref<ProjectileSpec> Spec;
+}
+

@@ -1,0 +1,42 @@
+component PlayerLink {
+    player_ref Player;
+	FPVector2 LastInputDirection;
+}
+
+component CharacterHealth{
+	FP Health;
+	FP MaxHealth;
+}
+
+component CharacterQuery {
+    LayerMask Mask;
+    [HideInInspector]
+    Int32 QueryID;
+    [HideInInspector]
+    FP Radius; 
+}
+
+component CollectibleArea
+{
+    FP SquareDist;
+}
+
+component PowerUpSelection{
+	array<AssetRefPowerUpSpec>[3] Options;
+}
+
+signal OnCharacterDamage(EntityRef target, Int32 damage);
+signal OnTeamLevelUp(TeamProgression* progression);
+signal OnPlayerChoosePowerUp(Int32 player, Int32 index);
+signal OnSetMoreChooseTime();
+
+synced event OnCharacterCreated{
+	EntityRef Entity;
+	PlayerLink Link;
+}
+
+synced event OnLevelUp{
+	EntityRef Character;
+	PowerUpSelection Selection;
+}
+synced event OnHideLevelUpPanel{}

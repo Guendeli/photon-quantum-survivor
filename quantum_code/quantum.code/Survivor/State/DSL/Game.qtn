@@ -1,0 +1,23 @@
+﻿#define MaxPlayers 3
+#pragma max_players MaxPlayers
+
+singleton component GameplayArea {    
+    FPVector2 Size;
+}
+
+
+enum GameState {
+    Playing, Selecting, Victory, Defeat
+}
+
+
+// combined for all characters
+singleton component TeamProgression {
+	array<entity_ref>[3] Characters;
+    FP TotalXP;
+    FP XP;
+    Byte Level;
+    GameState State;
+	FP Timer;
+    FP TimeToSelect;
+}

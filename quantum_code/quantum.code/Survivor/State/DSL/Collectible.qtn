@@ -1,0 +1,19 @@
+asset PowerUpRoster;
+asset CollectibleSpec;
+asset PowerUpSpec;
+
+enum CollectibleType {
+    XP, WeaponUpgrade
+}
+
+component Collectible {
+    CollectibleType Type;
+    FP TTL;
+	asset_ref<CollectibleSpec> Spec;
+}
+
+component MagneticLock{
+	EntityRef Target;
+	FP Speed;
+	FP Time;
+}

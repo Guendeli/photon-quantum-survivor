@@ -1,0 +1,18 @@
+asset ProjectileSpec;
+asset EffectSpec;
+
+component Projectile {
+    [HideInInspector]
+    FP Damage;
+    [HideInInspector]
+    FP TTL;
+    [HideInInspector]
+    FPVector2 Direction;
+    [HideInInspector]
+    asset_ref<ProjectileSpec> Spec;
+    [HideInInspector]
+	asset_ref<EffectSpec> EffectSpec;
+    [HideInInspector]
+    Int32 QueryID;
+}
+

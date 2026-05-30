@@ -1,0 +1,7 @@
+component CharacterController {
+    FP Acceleration;
+    FP Brake;
+    FP MaxSpeed;
+    [HideInInspector]
+    FPVector2 Velocity;
+}

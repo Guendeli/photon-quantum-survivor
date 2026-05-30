@@ -1,0 +1,18 @@
+﻿asset CharacterRoster;
+asset WaveConfig;
+asset MapWaves;
+
+component RuntimeWave {   
+    Int16 CurrentSpawnCount;    
+    [HideInInspector]
+	FP EndTime;
+    asset_ref<WaveConfig> Config;
+}
+
+component Waveable
+{
+	[HideInInspector]
+    bool IgnoreDropItem;
+    [HideInInspector]
+    entity_ref Wave;    
+}

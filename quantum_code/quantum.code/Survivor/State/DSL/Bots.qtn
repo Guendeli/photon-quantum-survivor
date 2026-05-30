@@ -1,0 +1,10 @@
+﻿enum BotStates {
+    None, Alone, Following
+}
+
+component BotData {
+    entity_ref Leader;
+    entity_ref Other;
+    entity_ref CloseMonster;
+    BotStates State;
+}

@@ -1,0 +1,8 @@
+﻿input {
+	Byte EncodedDirection;
+}
+
+component InputContainer {
+    [HideInInspector]
+    Input Input;
+}

@@ -1,0 +1,4 @@
+﻿singleton component WavesManager {
+    [HideInInspector]
+    Int32 WavesCreatedCount;
+}
