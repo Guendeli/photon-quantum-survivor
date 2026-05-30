@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a366507de6e4aa44aea490bd69adace, type: 3}
+  m_Name: Map1
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/Map1
+      Guid:
+        Value: 1710471675203725834
+    UserAsset:
+      Id:
+        Value: 1190068281094371548
+    Scene: Game
+    ScenePath: Assets/Photon/QuantumDemo/Game/Game.unity
+    SceneGuid: 03bd5ba32b9950244a08f22579187d8b
+    WorldSize: 62
+    BucketsCount: 16
+    BucketsSubdivisions: 8
+    BucketingAxis: 0
+    SortingAxis: 1
+    TriangleMeshCellSize: 4
+    StaticColliders3DTrianglesData:
+      Id:
+        Value: 3193928688549920171
+    OptionalTriangleMetadataSerializationEnabled: 1
+    SerializeTrianglesMetadata: 0
+    StaticColliders3DTrianglesBinaryFile: 
+    GridSizeX: 32
+    GridSizeY: 32
+    GridNodeSize: 4
+    NavMeshLinks: []
+    Regions: []
+    StaticColliders2D: []
+    StaticColliders3D: []
+    MapEntities: []
+  Prototypes:
+  - Abilities: []
+    BotData: []
+    CharacterController: []
+    CharacterHealth: []
+    CharacterQuery: []
+    Collectible: []
+    CollectibleArea: []
+    GameplayArea:
+    - Size:
+        X:
+          RawValue: 3080192
+        Y:
+          RawValue: 2490368
+    InputContainer: []
+    MagneticLock: []
+    Monster: []
+    PlayerLink: []
+    PowerUpSelection: []
+    Projectile: []
+    RuntimeWave: []
+    TeamProgression:
+    - Characters:
+      - SceneIndexPlusOne: 0
+      - SceneIndexPlusOne: 0
+      - SceneIndexPlusOne: 0
+      TotalXP:
+        RawValue: 0
+      XP:
+        RawValue: 0
+      Level: 1
+      State:
+        Value: 0
+      Timer:
+        RawValue: 0
+      TimeToSelect:
+        RawValue: 0
+    Waveable: []
+    WavesManager:
+    - WavesCreatedCount: 0
+    CharacterController2D: []
+    CharacterController3D: []
+    NavMeshAvoidanceAgent: []
+    NavMeshAvoidanceObstacle: []
+    NavMeshPathfinder: []
+    NavMeshSteeringAgent: []
+    PhysicsBody2D: []
+    PhysicsBody3D: []
+    PhysicsCollider2D: []
+    PhysicsCollider3D: []
+    PhysicsCallbacks2D: []
+    PhysicsCallbacks3D: []
+    Transform2D: []
+    Transform2DVertical: []
+    Transform3D: []
+    View: []
+    PhysicsJoints2D: []
+    PhysicsJoints3D: []

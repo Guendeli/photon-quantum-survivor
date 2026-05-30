@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2214a9bed4eef524b9636a031779cfda, type: 3}
+  m_Name: SpearPowerUpSpec
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/PowerUps/SpearPowerUpSpec
+      Guid:
+        Value: 3735802463529282815
+    AbilityProjectileSpec:
+      Id:
+        Value: 3568816482856679702
+    Upgrades:
+    - DamageMidifier:
+        RawValue: 0
+      CooldownMidifier:
+        RawValue: -1966
+      RotationSpeedModifier:
+        RawValue: 0
+      RadiansModifier:
+        RawValue: 0
+      TimeModifier:
+        RawValue: 0
+    - DamageMidifier:
+        RawValue: 0
+      CooldownMidifier:
+        RawValue: -1966
+      RotationSpeedModifier:
+        RawValue: 0
+      RadiansModifier:
+        RawValue: 0
+      TimeModifier:
+        RawValue: 0
+    - DamageMidifier:
+        RawValue: 0
+      CooldownMidifier:
+        RawValue: -1966
+      RotationSpeedModifier:
+        RawValue: 0
+      RadiansModifier:
+        RawValue: 0
+      TimeModifier:
+        RawValue: 0
+    - DamageMidifier:
+        RawValue: 0
+      CooldownMidifier:
+        RawValue: -1966
+      RotationSpeedModifier:
+        RawValue: 0
+      RadiansModifier:
+        RawValue: 0
+      TimeModifier:
+        RawValue: 0
+    - DamageMidifier:
+        RawValue: 0
+      CooldownMidifier:
+        RawValue: -1966
+      RotationSpeedModifier:
+        RawValue: 0
+      RadiansModifier:
+        RawValue: 0
+      TimeModifier:
+        RawValue: 0

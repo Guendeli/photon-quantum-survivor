@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9124d88f3f9ce45b37c2eb308b48d5, type: 3}
+  m_Name: DirectionalSpearSpec
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/Projectiles/DirectionalSpearSpec
+      Guid:
+        Value: 3568816482856679702
+    ProjectilePrototype:
+      Id:
+        Value: 4255982406327613934
+    TTL:
+      RawValue: 98304
+    Mask:
+      BitMask: 128
+    EffectSpec:
+      Id:
+        Value: 877529466018243812
+    Speed:
+      RawValue: 458752
+    DestroyOnHit: 1
+    EffectOnDestroy: 0
+    HasKnockback: 1

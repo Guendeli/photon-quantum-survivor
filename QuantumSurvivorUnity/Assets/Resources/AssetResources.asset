@@ -1,0 +1,278 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dd8e95ae0daaec4496511105240e8a3, type: 3}
+  m_Name: AssetResources
+  m_EditorClassIdentifier: 
+  AssetBundlesGroup:
+    _resources: []
+  ResourcesGroup:
+    _resources:
+    - Path: Resources/DB/Configs/DefaultPhysicsMaterial
+      AssetRef:
+        Id:
+          Value: 1
+      ResourcePath: DB/Configs/DefaultPhysicsMaterial
+    - Path: Resources/DB/Configs/DefaultNavMeshAgentConfig
+      AssetRef:
+        Id:
+          Value: 2
+      ResourcePath: DB/Configs/DefaultNavMeshAgentConfig
+    - Path: Resources/DB/Configs/DefaultCharacterController2D
+      AssetRef:
+        Id:
+          Value: 3
+      ResourcePath: DB/Configs/DefaultCharacterController2D
+    - Path: Resources/DB/Configs/DefaultCharacterController3D
+      AssetRef:
+        Id:
+          Value: 4
+      ResourcePath: DB/Configs/DefaultCharacterController3D
+    - Path: Resources/DB/Configs/SimulationConfig
+      AssetRef:
+        Id:
+          Value: 5
+      ResourcePath: DB/Configs/SimulationConfig
+    - Path: Resources/DB/Collectibles/Collectible_Base|EntityView
+      AssetRef:
+        Id:
+          Value: 33155767384082914
+      ResourcePath: DB/Collectibles/Collectible_Base
+    - Path: Resources/DB/Projectiles/BombProjectileSpec
+      AssetRef:
+        Id:
+          Value: 142171130592374425
+      ResourcePath: DB/Projectiles/BombProjectileSpec
+    - Path: Resources/DB/Monsters/Monster_Medium|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 232044039907681102
+      ResourcePath: DB/Monsters/Monster_Medium
+    - Path: Resources/DB/Characters/CharacterBVariant|EntityView
+      AssetRef:
+        Id:
+          Value: 238565427567162513
+      ResourcePath: DB/Characters/CharacterBVariant
+    - Path: Resources/DB/Characters/CharacterAVariant|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 292427741184223207
+      ResourcePath: DB/Characters/CharacterAVariant
+    - Path: Resources/DB/Monsters/Monster_Small|EntityView
+      AssetRef:
+        Id:
+          Value: 540363481788880816
+      ResourcePath: DB/Monsters/Monster_Small
+    - Path: Resources/DB/Collectibles/XP_Collectible|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 581885723360815347
+      ResourcePath: DB/Collectibles/XP_Collectible
+    - Path: Resources/DB/Characters/CharacterCVariant|EntityView
+      AssetRef:
+        Id:
+          Value: 597634252789650127
+      ResourcePath: DB/Characters/CharacterCVariant
+    - Path: Resources/DB/Projectiles/Effects/KillEffectSpec
+      AssetRef:
+        Id:
+          Value: 630353027686270618
+      ResourcePath: DB/Projectiles/Effects/KillEffectSpec
+    - Path: Resources/DB/Monsters/Monster_Base|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 645249464485503314
+      ResourcePath: DB/Monsters/Monster_Base
+    - Path: Resources/DB/Projectiles/Bomb|EntityView
+      AssetRef:
+        Id:
+          Value: 645499933864542742
+      ResourcePath: DB/Projectiles/Bomb
+    - Path: Resources/DB/Projectiles/WhipProjectileSpec
+      AssetRef:
+        Id:
+          Value: 796566559299600105
+      ResourcePath: DB/Projectiles/WhipProjectileSpec
+    - Path: Resources/DB/Projectiles/Projectile_Base|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 840355705481850240
+      ResourcePath: DB/Projectiles/Projectile_Base
+    - Path: Resources/DB/Projectiles/Effects/DamageEffectSpecAsset
+      AssetRef:
+        Id:
+          Value: 877529466018243812
+      ResourcePath: DB/Projectiles/Effects/DamageEffectSpecAsset
+    - Path: Resources/DB/Projectiles/Whip|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 1087501351072673243
+      ResourcePath: DB/Projectiles/Whip
+    - Path: Resources/DB/Waves/MapWaves
+      AssetRef:
+        Id:
+          Value: 1190068281094371548
+      ResourcePath: DB/Waves/MapWaves
+    - Path: Resources/DB/Characters/CharacterCVariant|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 1386591164296016962
+      ResourcePath: DB/Characters/CharacterCVariant
+    - Path: Resources/DB/Projectiles/ContactBombProjectile|EntityView
+      AssetRef:
+        Id:
+          Value: 1421051934537948548
+      ResourcePath: DB/Projectiles/ContactBombProjectile
+    - Path: Resources/DB/PowerUps/PowerUpRoster
+      AssetRef:
+        Id:
+          Value: 1578815565355936808
+      ResourcePath: DB/PowerUps/PowerUpRoster
+    - Path: Resources/DB/Projectiles/DirectionalSpear|EntityView
+      AssetRef:
+        Id:
+          Value: 1584089675629638945
+      ResourcePath: DB/Projectiles/DirectionalSpear
+    - Path: Resources/DB/PowerUps/BombPowerUpSpec
+      AssetRef:
+        Id:
+          Value: 1620937028397492745
+      ResourcePath: DB/PowerUps/BombPowerUpSpec
+    - Path: Resources/DB/Characters/CharacterAVariant|EntityView
+      AssetRef:
+        Id:
+          Value: 1647110715411456645
+      ResourcePath: DB/Characters/CharacterAVariant
+    - Path: Resources/DB/Map1
+      AssetRef:
+        Id:
+          Value: 1710471675203725834
+      ResourcePath: DB/Map1
+    - Path: Resources/DB/Characters/CharacterRoster
+      AssetRef:
+        Id:
+          Value: 1806313282884607524
+      ResourcePath: DB/Characters/CharacterRoster
+    - Path: Resources/DB/Projectiles/ContactBombProjectile|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 2121436090950032467
+      ResourcePath: DB/Projectiles/ContactBombProjectile
+    - Path: Resources/DB/Characters/Character|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 2512313618754048747
+      ResourcePath: DB/Characters/Character
+    - Path: Resources/DB/Collectibles/XP_Collectible|EntityView
+      AssetRef:
+        Id:
+          Value: 2782166356440023498
+      ResourcePath: DB/Collectibles/XP_Collectible
+    - Path: Resources/DB/Projectiles/ContactProjectileToSpawnBombSpec
+      AssetRef:
+        Id:
+          Value: 2829974430823266077
+      ResourcePath: DB/Projectiles/ContactProjectileToSpawnBombSpec
+    - Path: Resources/DB/Characters/Character|EntityView
+      AssetRef:
+        Id:
+          Value: 2926386553181659275
+      ResourcePath: DB/Characters/Character
+    - Path: Resources/DB/Monsters/Monster_Base|EntityView
+      AssetRef:
+        Id:
+          Value: 3073902620359410115
+      ResourcePath: DB/Monsters/Monster_Base
+    - Path: Resources/DB/Map1_mesh
+      AssetRef:
+        Id:
+          Value: 3193928688549920171
+      ResourcePath: DB/Map1_mesh
+    - Path: Resources/DB/Projectiles/Whip|EntityView
+      AssetRef:
+        Id:
+          Value: 3311239625589973519
+      ResourcePath: DB/Projectiles/Whip
+    - Path: Resources/DB/PowerUps/WhipPowerUpSpec
+      AssetRef:
+        Id:
+          Value: 3374801599607047097
+      ResourcePath: DB/PowerUps/WhipPowerUpSpec
+    - Path: Resources/DB/Waves/2-WaveConfig
+      AssetRef:
+        Id:
+          Value: 3405711136910967951
+      ResourcePath: DB/Waves/2-WaveConfig
+    - Path: Resources/DB/Projectiles/DirectionalSpearSpec
+      AssetRef:
+        Id:
+          Value: 3568816482856679702
+      ResourcePath: DB/Projectiles/DirectionalSpearSpec
+    - Path: Resources/DB/Waves/1-WaveConfig
+      AssetRef:
+        Id:
+          Value: 3578070993972476694
+      ResourcePath: DB/Waves/1-WaveConfig
+    - Path: Resources/DB/PowerUps/SpearPowerUpSpec
+      AssetRef:
+        Id:
+          Value: 3735802463529282815
+      ResourcePath: DB/PowerUps/SpearPowerUpSpec
+    - Path: Resources/DB/Monsters/Monster_Medium|EntityView
+      AssetRef:
+        Id:
+          Value: 3904023990318434122
+      ResourcePath: DB/Monsters/Monster_Medium
+    - Path: Resources/DB/Projectiles/Projectile_Base|EntityView
+      AssetRef:
+        Id:
+          Value: 3919172642236924650
+      ResourcePath: DB/Projectiles/Projectile_Base
+    - Path: Resources/DB/Projectiles/Bomb|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 4022082484156099853
+      ResourcePath: DB/Projectiles/Bomb
+    - Path: Resources/DB/NestedAssetType|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 4027734558802918669
+      ResourcePath: DB/NestedAssetType
+    - Path: Resources/DB/Collectibles/Collectible_Base|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 4035620478930354250
+      ResourcePath: DB/Collectibles/Collectible_Base
+    - Path: Resources/DB/Monsters/Monster_Small|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 4114886866642370949
+      ResourcePath: DB/Monsters/Monster_Small
+    - Path: Resources/DB/Projectiles/Effects/SpawnBombEffectSpec
+      AssetRef:
+        Id:
+          Value: 4178220939360357173
+      ResourcePath: DB/Projectiles/Effects/SpawnBombEffectSpec
+    - Path: Resources/DB/Projectiles/DirectionalSpear|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 4255982406327613934
+      ResourcePath: DB/Projectiles/DirectionalSpear
+    - Path: Resources/DB/Characters/CharacterBVariant|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 4290855479014839961
+      ResourcePath: DB/Characters/CharacterBVariant
+    - Path: Resources/DB/Collectibles/XPCollectibleSpec
+      AssetRef:
+        Id:
+          Value: 4390837373594923438
+      ResourcePath: DB/Collectibles/XPCollectibleSpec

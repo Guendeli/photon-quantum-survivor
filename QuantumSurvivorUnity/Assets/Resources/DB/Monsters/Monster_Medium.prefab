@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7245863017505204752
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -1547899838827658318, guid: 670cfc38f4baa1b499ab204f521a3d00,
+        type: 3}
+      propertyPath: ManualDisposal
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995006240252453340, guid: 670cfc38f4baa1b499ab204f521a3d00,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995006240252453340, guid: 670cfc38f4baa1b499ab204f521a3d00,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995006240252453340, guid: 670cfc38f4baa1b499ab204f521a3d00,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995006240252453340, guid: 670cfc38f4baa1b499ab204f521a3d00,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995006240252453340, guid: 670cfc38f4baa1b499ab204f521a3d00,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995006240252453340, guid: 670cfc38f4baa1b499ab204f521a3d00,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995006240252453340, guid: 670cfc38f4baa1b499ab204f521a3d00,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995006240252453340, guid: 670cfc38f4baa1b499ab204f521a3d00,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995006240252453340, guid: 670cfc38f4baa1b499ab204f521a3d00,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995006240252453340, guid: 670cfc38f4baa1b499ab204f521a3d00,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995006240252453340, guid: 670cfc38f4baa1b499ab204f521a3d00,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995006240252453350, guid: 670cfc38f4baa1b499ab204f521a3d00,
+        type: 3}
+      propertyPath: m_Name
+      value: Monster_Medium
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 670cfc38f4baa1b499ab204f521a3d00, type: 3}
+--- !u!114 &1011826992921880994 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -1547899838827658318, guid: 670cfc38f4baa1b499ab204f521a3d00,
+    type: 3}
+  m_PrefabInstance: {fileID: 7245863017505204752}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72cd1b54f42de404a85debf4da15da9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5556910088399801293 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2995006240252453341, guid: 670cfc38f4baa1b499ab204f521a3d00,
+    type: 3}
+  m_PrefabInstance: {fileID: 7245863017505204752}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 836dcb7e0f6259748b850a10912ce727, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-8428796992540278215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d5baec4de8d2754a864a680181831e8, type: 3}
+  m_Name: Monster_MediumEntityView
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/Monsters/Monster_Medium|EntityView
+      Guid:
+        Value: 3904023990318434122
+  Parent: {fileID: 1011826992921880994}
+--- !u!114 &6957369333103251482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0120b722c3ca5454da1240b65656905f, type: 3}
+  m_Name: Monster_MediumEntityPrototype
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/Monsters/Monster_Medium|EntityPrototype
+      Guid:
+        Value: 232044039907681102
+  Parent: {fileID: 5556910088399801293}

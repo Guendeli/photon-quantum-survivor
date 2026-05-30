@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c892abb1d2a066479f7ca1eb4a16465, type: 3}
+  m_Name: ContactProjectileToSpawnBombSpec
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/Projectiles/ContactProjectileToSpawnBombSpec
+      Guid:
+        Value: 2829974430823266077
+    ProjectilePrototype:
+      Id:
+        Value: 2121436090950032467
+    TTL:
+      RawValue: 65536
+    Mask:
+      BitMask: 128
+    EffectSpec:
+      Id:
+        Value: 4178220939360357173
+    Speed:
+      RawValue: 524288
+    DestroyOnHit: 1
+    EffectOnDestroy: 1
+    HasKnockback: 1
